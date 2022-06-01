@@ -39,7 +39,106 @@ body {
     line-height: 21px;
     color: #000000;
     background-color: #FFFFFF;
-  }
+  }  
 
+.main-index {
+  text-align: center;
+}
 
-  
+.navigation-link {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+  text-decoration: none;
+}
+
+.main-slider {
+  background-image: url("../images/index-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.description-text {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.advantages-text {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.advantages-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.bidding-text {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.bidding-text-change {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.button-bidding {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #000000;
+  text-decoration: none;
+}
+
+.call-with-background {
+  background-image: url("../images/background-2.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.subscribe-text {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #000000;
+  text-decoration: none;
+}
+
+.subscribe-text-honestly {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+.button-subscribe {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #000000;
+  text-decoration: none;
+}
+
+.footer-contacts-address-phone {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #000000;
+  background-color: #FFFFFF;
+  text-align: center;
+}
