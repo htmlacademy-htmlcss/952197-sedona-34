@@ -33,17 +33,6 @@
   font-display: swap;
 }
 
-/* PT Sans Narrow */
-@font-face {
-  font-family: "PT Sans Narrow";
-  font-style: normal;
-  font-weight: 700;
-  src: url("fonts/ptsans-narrow-bold.woff2") format("woff2");
-  font-display: swap;
-}
-
-
-
 body {
     font-family: "PT Sans", sans-serif;
     font-size: 18px;
@@ -51,5 +40,6 @@ body {
     color: #000000;
     background-color: #FFFFFF;
   }
+
 
   
