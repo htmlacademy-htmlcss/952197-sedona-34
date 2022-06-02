@@ -53,6 +53,17 @@ body {
   text-decoration: none;
 }
 
+.button-header {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
 .main-slider {
   background-image: url("../images/index-background.jpg");
   background-size: 100% auto;
@@ -141,4 +152,18 @@ body {
   color: #000000;
   background-color: #FFFFFF;
   text-align: center;
+}
+
+.inner-slider {
+  background-image: url("../images/catalog-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.inner-slider-title {
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: 700;
+  color: #FFFFFF;
+  background-color #000000;
 }
