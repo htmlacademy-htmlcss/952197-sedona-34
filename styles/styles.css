@@ -44,6 +44,22 @@ body {
   flex-grow: 1;
 }
 
+.navigation {
+  display: flex;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.navigation-logo {
+  width: 139px;
+  margin-right: 100px;
+}
+
+.navigation-list {
+  margin: 0;
+  padding: 0;
+}
+
 .navigation-link {
   font-size: 20px;
   line-height: 26px;
