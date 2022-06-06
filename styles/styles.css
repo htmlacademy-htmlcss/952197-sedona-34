@@ -52,12 +52,16 @@ body {
 
 .navigation-logo {
   width: 139px;
-  margin-right: 100px;
+  margin-right: 47px;
 }
 
 .navigation-list {
-  margin: 0;
-  padding: 0;
+  width: 450px;
+  margin-right: 47px;
+}
+
+.navigation-user {
+  width: 200px;
 }
 
 .navigation-link {
@@ -77,18 +81,25 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
   background-color: #756157;
+  margin-left: auto;
 }
 
 .main-slider {
   background-image: url("../images/index-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+  padding-top: 51px;
 }
 
 .description-text {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
+  margin: auto;
+  margin-top: 63px;
+  width: 620px;
+  text-transform: uppercase;
+
 }
 
 .advantages-list {
