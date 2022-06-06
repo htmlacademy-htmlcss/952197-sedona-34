@@ -46,9 +46,17 @@ body {
   margin: 0 auto;
 }
 
+.main-inner {
+  flex-grow: 1;
+  width: 1060px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
 .navigation {
   display: flex;
-  width: 1000px;
+  width: 1060px;
   margin: 0 auto;
 }
 
@@ -269,8 +277,6 @@ width: 400px;
   margin: auto;
 }
 
-
-
 .inner-slider {
   color: #FFFFFF;
   background-color: #000000;
@@ -302,6 +308,35 @@ width: 400px;
   text-transform: capitalize;
 }
 
+.catalog-filter-groups {
+  display: flex;
+}
+
+.catalog-filter-group {
+  width: 150px;
+  margin: 0;
+  padding: 0;
+}
+
+.catalog-filter-group-infrastructure {
+  margin-right: 70px;
+}
+
+.catalog-filter-group-housing {
+  margin-right: 167px;
+}
+
+.price-adjustment {
+  margin-right: 70px;
+}
+
+.button-adjustment {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+}
+
+
 .control-input {
   font-size: 18px;
   line-height: 21px;
@@ -316,6 +351,7 @@ width: 400px;
   color: #FFFFFF;
   background-color: #82B3D3;
   text-transform: uppercase;
+  width: 160px;
 }
 
 .button-non {
