@@ -42,22 +42,26 @@ body {
 
 .main-container {
   flex-grow: 1;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .navigation {
   display: flex;
-  width: 940px;
+  width: 1000px;
   margin: 0 auto;
 }
 
 .navigation-logo {
+  display: block;
   width: 139px;
-  margin-right: 47px;
+  margin-left: auto;
 }
 
 .navigation-list {
   width: 450px;
   margin-right: 47px;
+  
 }
 
 .navigation-user {
@@ -82,6 +86,7 @@ body {
   color: #FFFFFF;
   background-color: #756157;
   margin-left: auto;
+  width: 160px;
 }
 
 .main-slider {
@@ -89,58 +94,75 @@ body {
   background-size: 100% auto;
   background-repeat: no-repeat;
   padding-top: 51px;
+  width: 1200px;
 }
 
 .description-text {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
+  margin: 0;
+  padding: 0;
   margin: auto;
   margin-top: 63px;
   width: 620px;
   text-transform: uppercase;
-
 }
 
 .advantages-list {
-  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1200px;
 }
 
 .advantages-text {
   font-size: 22px;
   line-height: 26px;
+  margin-top: 31px;
 }
 
 .advantages-item-first {
 background: #000;
 color: #FFFFFF;
 background: #82B3D3;
+width: 400px;
 }
 
 .advantages-item-housing {
   background: rgba(131, 179, 211, 0.12);
+  width: 400px;
+}
+
+.advantages-item-food {
+  width: 400px;
 }
 
 .advantages-item-souvenirs {
   background: rgba(131, 179, 211, 0.12);
+  width: 400px;
 }
 
 .advantages-item-second {
 background: #000;
 color: #FFFFFF;
 background: #82B3D3;
+width: 400px;
 }
 
 .advantages-item-third {
   background: rgba(131, 179, 211, 0.12);
+  width: 400px;
 }
 
 .advantages-item-fourth {
   background: rgba(131, 179, 211, 0.2);
+  width: 400px;
 }
 
 .advantages-item-fifth  {
   background: rgba(131, 179, 211, 0.12);
+  width: 400px;
 }
 
 .advantages-title {
@@ -148,18 +170,33 @@ background: #82B3D3;
   line-height: 28px;
   font-weight: 700;
   text-transform: uppercase;
+  width: 230px;
+  margin: auto;
+}
+
+.advantages-description {
+  width: 230px;
+  margin: auto;
 }
 
 .bidding-text {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
+  margin: 0;
+  padding: 0;
   text-transform: uppercase;
+  margin-bottom: 29px;
 }
 
 .bidding-text-change {
   font-size: 22px;
   line-height: 26px;
+  width: 592px;
+  margin: 0;
+  padding: 0;
+  margin: auto;
+  margin-bottom: 68px;
 }
 
 .button-bidding {
@@ -170,6 +207,7 @@ background: #82B3D3;
   color: #FFFFFF;
   background-color: #756157;
   text-decoration: none;
+  width: 574px;
 }
 
 .call-with-background {
@@ -191,6 +229,9 @@ background: #82B3D3;
 .subscribe-text-honestly {
   font-size: 22px;
   line-height: 26px;
+  width: 475px;
+  margin: auto;
+  margin-bottom: 46px;
 }
 
 .button-subscribe {
@@ -204,6 +245,19 @@ background: #82B3D3;
   font-family: PT Sans;
 }
 
+.page-footer {
+  display: flex;
+  width: 1000px;
+  margin: 0 auto;
+
+}
+
+.footer-social-item {
+ justify-content: left;
+ display: inline;
+
+}
+
 .footer-contacts-address-phone {
   font-size: 40px;
   line-height: 40px;
@@ -212,7 +266,10 @@ background: #82B3D3;
   color: #000000;
   background-color: #FFFFFF;
   text-align: center;
+  margin: auto;
 }
+
+
 
 .inner-slider {
   color: #FFFFFF;
