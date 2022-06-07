@@ -130,6 +130,10 @@ body {
   margin-top: 31px;
 }
 
+.advantages-item {
+  margin: auto;
+}
+
 .advantages-item-first {
 background: #000;
 color: #FFFFFF;
@@ -382,7 +386,7 @@ width: 400px;
 
 .selected-hotel {
   display: flex;
-  
+ 
 }
 
 .visually-selected {
@@ -390,6 +394,7 @@ width: 400px;
 }
 
 .found-hotel-text {
+  flex-grow: 1;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -436,6 +441,16 @@ width: 400px;
   line-height: 21px;
   font-weight: 400;
   color: #333333;
+}
+
+.hotel-card-prices {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hotel-card-buttones {
+  display: flex;
+  justify-content: space-between;
 }
 
 .hotel-card-button {
