@@ -290,6 +290,14 @@ width: 400px;
   line-height: 78px;
   font-weight: 700;
   color: #FFFFFF;
+  margin: 0;
+  margin-top: 35px;
+}
+
+.breadcrumbs {
+  display: flex;
+  margin: 0;
+  margin-bottom: 40px;
 }
 
 .breadcrumbs-link {
@@ -306,10 +314,12 @@ width: 400px;
   line-height: 26px;
   font-weight: 700;
   text-transform: capitalize;
+
 }
 
 .catalog-filter-groups {
   display: flex;
+  margin-bottom: 70px;
 }
 
 .catalog-filter-group {
@@ -328,12 +338,14 @@ width: 400px;
 
 .price-adjustment {
   margin-right: 70px;
+  align-self: end;
 }
 
 .button-adjustment {
   display: flex;
   flex-direction: column;
   margin-left: auto;
+  justify-content: space-between;
 }
 
 
@@ -351,7 +363,9 @@ width: 400px;
   color: #FFFFFF;
   background-color: #82B3D3;
   text-transform: uppercase;
+  padding: 0;
   width: 160px;
+  margin-bottom: 20px;
 }
 
 .button-non {
@@ -360,7 +374,19 @@ width: 400px;
   font-weight: 400;
   text-align: center;
   color: #FFFFFF;
-  background-color: #82B3D3;
+}
+
+.found-hotel {
+
+}
+
+.selected-hotel {
+  display: flex;
+  
+}
+
+.visually-selected {
+  margin-right: auto;
 }
 
 .found-hotel-text {
@@ -368,6 +394,8 @@ width: 400px;
   line-height: 36px;
   font-weight: 700;
   text-transform: uppercase;
+  width: 338px;
+  margin-right: 191px;
 }
 
 .select-control {
@@ -375,6 +403,21 @@ width: 400px;
   line-height: 21px;
   font-weight: 400;
   color: #333333;
+  width: 290px;
+  height: 49px;
+  margin-right: 50px;
+}
+
+.hotel-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.hotel-card {
+  width: 300px;
 }
 
 .hotel-card-link {

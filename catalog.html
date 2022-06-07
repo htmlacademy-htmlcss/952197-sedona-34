@@ -50,7 +50,7 @@
     <ul class="breadcrumbs">
     <li class="breadcrumbs-item">
     <a class="breadcrumbs-link visually-hidden" href="index.html">Главная
-      <img src="" alt="домик" width="4" height="4">
+      <!--здесь будет иконка-домик и стрелочка-->
     </a>
     </li>
     <li class="breadcrumbs-item">
@@ -126,6 +126,7 @@
 </div>
 
   <section class="found-hotel">
+<div class="selected-hotel">
     <h2 class="found-hotel-text">Найдено гостиниц: 38</h2>
 
     <select class="select-control" aria-label="Сортировка">
@@ -134,17 +135,19 @@
       <option value="expensive">Сначала дорогое</option>
       <option value="our-choice">Выбор редакции</option>
     </select>
-    
+
+  <div class="visually-selected">
   <a class="button button-light" href="#">
-      <span class="visually-hidden">Показать карточки</span>
+    <span class="visually-hidden">Показать карточки</span>
   </a>
   <a class="button-light" href="#">
-      <span class="visually-hidden">Показать карточки и список</span>
+    <span class="visually-hidden">Показать карточки и список</span>
   </a>
   <a class="button-light" href="#">
       <span class="visually-hidden">Показать список</span>
   </a>
-
+  </div>  
+</div>
     <ul class="hotel-list">
     <li class="hotel-card">
       <a class="hotel-card-link" href="hotel.html">
