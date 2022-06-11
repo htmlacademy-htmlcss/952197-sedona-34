@@ -34,7 +34,7 @@ body {
   font-weight: 400;
   color: #000000;
   background-color: #FFFFFF;
-  }  
+  }
 
 .main-index {
   text-align: center;
@@ -54,6 +54,17 @@ body {
   flex-direction: column;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .navigation {
   display: flex;
   width: 1060px;
@@ -67,22 +78,33 @@ body {
 }
 
 .navigation-list {
+  display: flex;
   margin: 0;
   padding: 0;
-  width: 450px;
+  /* width: 450px;*/
   margin-left: 47px;
+  margin-right: 185px;
+  list-style-type: none;
 }
 
 .navigation-user {
-  width: 200px;
+  margin-right: 0;
 }
 
 .navigation-link {
+  display: block;
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
   color: #000000;
   text-decoration: none;
+  padding: 20px 17px;
+  flex-wrap: wrap;
+}
+
+.navigation-user .navigation-link {
+  min-width: 18px;
+  min-height: 18px;
 }
 
 .button-header {
@@ -136,7 +158,7 @@ body {
 }
 
 .advantages-item {
-  
+
 }
 
 .advantages-item-first {
@@ -392,7 +414,7 @@ width: 400px;
 
 .selected-hotel {
   display: flex;
- 
+
 }
 
 .visually-selected {
@@ -493,7 +515,7 @@ width: 400px;
   text-decoration: none;
   color: #000;
   width: 400px;
-  
+
 }
 
 .pagination-select {
