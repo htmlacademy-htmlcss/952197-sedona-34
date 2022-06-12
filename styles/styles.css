@@ -316,6 +316,9 @@ width: 400px;
   background-color: #82B3D3;
   text-decoration: none;
   font-family: PT Sans;
+  padding: 12px 15px;
+  border-radius: 0px 10px 10px 0px;
+  border-style: none;
 }
 
 .page-footer {
@@ -361,6 +364,9 @@ margin-bottom: 8px;
   background-image: url("../images/catalog-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+  padding-top: 35px;
+  padding-bottom: 71px;
+  margin-bottom: 50px;
 }
 
 .inner-slider-title {
@@ -369,13 +375,14 @@ margin-bottom: 8px;
   font-weight: 700;
   color: #FFFFFF;
   margin: 0;
-  margin-top: 35px;
+  margin-bottom: 10px;
 }
 
 .breadcrumbs {
   display: flex;
   margin: 0;
   margin-bottom: 40px;
+  list-style-type: none;
 }
 
 .breadcrumbs-link {
@@ -387,17 +394,23 @@ margin-bottom: 8px;
   color: #FFFFFF;
 }
 
+.catalog-filter-list {
+  list-style-type: none;
+}
+
 .catalog-filter-title {
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
   text-transform: capitalize;
-
 }
 
 .catalog-filter-groups {
   display: flex;
-  margin-bottom: 70px;
+}
+
+.catalog-products {
+
 }
 
 .catalog-filter-group {
@@ -423,7 +436,7 @@ margin-bottom: 8px;
   display: flex;
   flex-direction: column;
   margin-left: auto;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 
@@ -441,9 +454,11 @@ margin-bottom: 8px;
   color: #FFFFFF;
   background-color: #82B3D3;
   text-transform: uppercase;
-  padding: 0;
+  padding: 14px 15px;
   width: 160px;
   margin-bottom: 20px;
+  border-radius: 4px;
+  border: none;
 }
 
 .button-non {
@@ -455,26 +470,22 @@ margin-bottom: 8px;
 }
 
 .found-hotel {
-
+margin-bottom: 120px;
 }
 
 .selected-hotel {
   display: flex;
-
-}
-
-.visually-selected {
-  margin-right: auto;
+  margin-bottom: 77px;
 }
 
 .found-hotel-text {
-  flex-grow: 1;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  width: 600px;
-  margin-right: 180px;
+  max-width: 600px;
+  margin: 0;
+  margin-right: 190px;
 }
 
 .select-control {
@@ -484,7 +495,15 @@ margin-bottom: 8px;
   color: #333333;
   width: 290px;
   height: 49px;
-  margin-right: 50px;
+}
+
+.visually-selected {
+  margin-right: auto;
+}
+
+.button-selected {
+  width: 48px;
+  height: 48px;
 }
 
 .hotel-list {
@@ -493,6 +512,8 @@ margin-bottom: 8px;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
+  list-style-type: none;
+  margin-bottom: 86px;
 }
 
 .hotel-card {
@@ -530,16 +551,19 @@ margin-bottom: 8px;
 .hotel-card-button {
   text-decoration: none;
   background-color: #756157;
+  padding: 9px 15px;
 }
 
 .hotel-card-button-check {
   text-decoration: none;
   background-color: #82B3D3;
+  padding: 9px 15px;
 }
 
 .hotel-card-button-checked {
   text-decoration: none;
   background-color: #7DB54F;
+  padding: 9px 15px;
 }
 
 .hotel-property {
@@ -550,7 +574,18 @@ margin-bottom: 8px;
 
 .pagination-select {
   display: flex;
-  justify-content: space-between;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.pagination {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+  margin-right: 270px;
+  color: #000;
 }
 
 .pagination-link {
@@ -559,23 +594,38 @@ margin-bottom: 8px;
   line-height: 36px;
   font-weight: 700;
   text-decoration: none;
-  color: #000;
-  width: 400px;
-
+  color: #fff;
+  background-color: #82B3D3;
+  padding: 12px 24px;
+  margin-right: 8px;
+  border-radius: 4px;
 }
 
-.pagination-select {
-  font-size: 18px;
-  line-height: 21px;
-  font-weight: 400;
+.pagination-current {
+  background-color: #F2F2F2;
+  color: #000;
+}
+
+.pagination-item:last-child {
+  margin-right: 0;
+}
+
+.text-select {
+min-width: 175px;
+max-width: 177px;
+margin: 0;
+margin-right: 50px;
+align-self: center;
 }
 
 .select-control {
   font-family: "PT Sans";
+  width: 160px;
 }
 
 .call-without-background {
   text-align: center;
+  margin-bottom: 36px;
 }
 
 .subscribe-text-inner {
@@ -583,10 +633,14 @@ margin-bottom: 8px;
   line-height: 36px;
   font-weight: 700;
   text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 29px;
 }
 
 .subscribe-text-honestly-inner {
-font-size: 22px;
+  font-size: 22px;
   line-height: 26px;
   font-weight: 400;
+  margin: 0;
+  margin-bottom: 46px;
 }
