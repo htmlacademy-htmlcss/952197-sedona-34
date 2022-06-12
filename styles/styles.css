@@ -175,43 +175,43 @@ body {
 background: #000;
 color: #FFFFFF;
 background: #82B3D3;
-width: 400px;
+padding: 92px 85px;
 }
 
 .advantages-item-housing {
   background: rgba(131, 179, 211, 0.12);
-  width: 400px;
+  padding: 80px 85px;
 }
 
 .advantages-item-food {
-  width: 400px;
+  padding: 80px 85px;
 }
 
 .advantages-item-souvenirs {
   background: rgba(131, 179, 211, 0.12);
-  width: 400px;
+  padding: 80px 85px;
 }
 
 .advantages-item-second {
 background: #000;
 color: #FFFFFF;
 background: #82B3D3;
-width: 400px;
+padding: 92px 85px;
 }
 
 .advantages-item-third {
   background: rgba(131, 179, 211, 0.12);
-  width: 400px;
+  padding: 102px 85px;
 }
 
 .advantages-item-fourth {
   background: rgba(131, 179, 211, 0.2);
-  width: 400px;
+  padding: 102px 85px;
 }
 
 .advantages-item-fifth  {
   background: rgba(131, 179, 211, 0.12);
-  width: 400px;
+  padding: 102px 85px;
 }
 
 .advantages-title {
@@ -221,7 +221,7 @@ width: 400px;
   text-transform: uppercase;
   width: 230px;
   margin: auto;
-  padding-top: 92px;
+  padding-top: 0;
   padding-bottom: 30px;
 }
 
@@ -233,7 +233,6 @@ width: 400px;
 .advantages-description {
   width: 230px;
   margin: auto;
-  margin-bottom: 92px;
 }
 
 /* .advantages-description:nth-child(2) {
@@ -241,6 +240,14 @@ width: 400px;
   margin: auto;
   margin-bottom: 81px;
 }*/
+
+.icon-advantages {
+  margin-bottom: 30px;
+}
+
+.bidding {
+  margin-bottom: 93px;
+}
 
 .bidding-text {
   font-size: 30px;
@@ -273,8 +280,8 @@ width: 400px;
   width: 574px;
   padding: 12px 15px;
   border-radius: 4px;
-  margin-bottom: 93px;
   display: block;
+  align-self: center;
 }
 
 .call-with-background {
@@ -323,7 +330,7 @@ width: 400px;
 
 .page-footer {
   display: flex;
-  width: 1000px;
+  width: 1060px;
   margin: 0 auto;
 }
 
@@ -333,17 +340,12 @@ width: 400px;
   margin: 0;
   padding: 0;
   list-style-type: none;
+  margin-right: 236px;
 }
 
 .footer-social-item {
-width: 24px;
-height: 17px;
-margin-right: 27px;
-margin-bottom: 8px;
-}
-
-.footer-social-item:nth-child(3n) {
-  margin-right: 0;
+width: 47px;
+height: 40px;
 }
 
 .footer-contacts-address-phone {
@@ -354,8 +356,8 @@ margin-bottom: 8px;
   color: #000000;
   background-color: #FFFFFF;
   text-align: center;
-  margin: 0 auto;
-  margin-bottom: 35px;
+  margin: 0;
+  margin-right: 236px;
 }
 
 .inner-slider {
