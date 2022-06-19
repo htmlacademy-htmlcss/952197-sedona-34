@@ -509,11 +509,9 @@ margin-bottom: 120px;
 }
 
 .hotel-list {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  gap: 48px 58px;
   list-style-type: none;
   margin-bottom: 86px;
 }
