@@ -72,6 +72,12 @@ body {
   margin: 0 auto;
 }
 
+.main-header-logo {
+  margin-bottom: -11px;
+  position: relative;
+  z-index: 11;
+}
+
 .navigation-logo {
   display: block;
   width: 139px;
@@ -377,7 +383,7 @@ height: 40px;
   color: #FFFFFF;
   background-color: #000000;
   background-image: url("../images/catalog-background.jpg");
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
   padding-top: 35px;
   padding-bottom: 71px;
@@ -482,6 +488,9 @@ height: 40px;
   font-weight: 400;
   text-align: center;
   color: #FFFFFF;
+  background: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 .found-hotel {
