@@ -134,6 +134,13 @@ body {
   margin-bottom: 63px;
 }
 
+.block {
+  background-image: url("../images/vector-slider.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+
+}
+
 .image-text-slider {
   margin-bottom: 83px;
 }
@@ -167,8 +174,12 @@ body {
  margin-bottom: 90px;
 }
 
-.advantages-item {
+.image-advantages {
+vertical-align: bottom;
+}
 
+.image-advantages-canion {
+  vertical-align: bottom;
 }
 
 .advantages-item-first {
@@ -282,6 +293,8 @@ padding: 92px 85px;
   border-radius: 4px;
   display: block;
   align-self: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .call-with-background {
