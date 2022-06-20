@@ -571,6 +571,8 @@ margin-bottom: 120px;
 
 .hotel-card {
   width: 300px;
+  display: flex;
+  flex-direction: column;
 }
 
 .hotel-card-link {
@@ -582,6 +584,9 @@ margin-bottom: 120px;
   line-height: 28px;
   font-weight: 700;
   color: #000;
+  margin: 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .hotel-card-description {
@@ -594,35 +599,48 @@ margin-bottom: 120px;
 .hotel-card-prices {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 16px;
 }
 
 .hotel-card-buttones {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 16px;
 }
 
 .hotel-card-button {
   text-decoration: none;
   background-color: #756157;
   padding: 9px 15px;
+  margin: 0;
 }
 
 .hotel-card-button-check {
   text-decoration: none;
   background-color: #82B3D3;
   padding: 9px 15px;
+  margin: 0;
 }
 
 .hotel-card-button-checked {
   text-decoration: none;
   background-color: #7DB54F;
   padding: 9px 15px;
+  margin: 0;
+}
+
+.rating {
+  margin: 0;
+  background-color: #F2F2F2;
+  border-radius: 3px;
+  padding: 9px 22px 8px 23px;
 }
 
 .hotel-property {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  margin: 0;
 }
 
 .pagination-select {
