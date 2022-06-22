@@ -119,6 +119,17 @@ body {
   min-height: 18px;
 }
 
+.navigation-link-current::before {
+  position: absolute;
+  right: 20px;
+  width: 68px;
+  bottom: ;
+  left: 20px;
+  height: 2px;
+  background-color: #756257;
+  content: "";
+}
+
 .button-header {
   font-size: 16px;
   line-height: 20px;
@@ -133,6 +144,27 @@ body {
   align-self: center;
   padding: 8px 15px;
   border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-header:hover {
+  background-color: #615048;
+}
+
+.button-header:focus {
+  outline: 2px solid #dbb590;
+  background-color: #615048;
+}
+
+.button-header:active {
+  color: #e7e7e7;
+  background-color: #756157;
+}
+
+.button-header:disabled:hover {
+  background-color: #E5E5E5;
+  outline: none;
+  cursor: default;
 }
 
 .main-slider {
@@ -308,6 +340,26 @@ padding: 92px 85px;
   margin-right: auto;
 }
 
+.button-bidding:hover {
+  background-color: #615048;
+}
+
+.button-bidding:focus {
+  outline: 2px solid #dbb590;
+  background-color: #615048;
+}
+
+.button-bidding:active {
+  color: #e7e7e7;
+  background-color: #756157;
+}
+
+.button-bidding:disabled:hover {
+  background-color: #E5E5E5;
+  outline: none;
+  cursor: default;
+}
+
 .call-with-background {
   color: #FFFFFF;
   background-color: #000000;
@@ -350,6 +402,27 @@ padding: 92px 85px;
   padding: 12px 15px;
   border-radius: 0px 10px 10px 0px;
   border-style: none;
+  cursor: pointer;
+}
+
+.button-subscribe:hover {
+  background-color: #68A2CA;
+}
+
+.button-subscribe:focus {
+  outline: 2px solid #fff;
+  background-color: #68A2CA;
+}
+
+.button-subscribe:active {
+  color: fff;
+  background-color: #82B3D3;
+}
+
+.button-subscribe:disabled:hover {
+  background-color: #E5E5E5;
+  outline: none;
+  cursor: default;
 }
 
 .page-footer {
@@ -370,6 +443,31 @@ padding: 92px 85px;
 .footer-social-item {
 width: 47px;
 height: 40px;
+position: relative;
+}
+
+.footer-social {
+  fill: #83B3D3;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.footer-social:hover {
+  fill: #68A2CA;
+}
+
+.footer-social:focus {
+  outline: 2px solid #fff;
+  fill: #68A2CA;
+}
+
+.footer-social:active {
+  color: #fff;
+  fill: rgba(104, 162, 202, 0.3);
 }
 
 .footer-contacts-address-phone {
@@ -382,6 +480,28 @@ height: 40px;
   text-align: center;
   margin: 0;
   margin-right: 236px;
+}
+
+.footer-contacts-address-phone:hover {
+  fill: #68A2CA;
+}
+
+.logo-html-academy {
+  fill: #000;
+}
+
+.logo-html-academy:hover {
+  fill: #756157;
+}
+
+.logo-html-academy:focus {
+  outline: 2px solid #fff;
+  fill: #756157;
+}
+
+.logo-html-academy:active {
+  color: #fff;
+  fill: rgba(117, 97, 87, 0.3);
 }
 
 .inner-slider {
