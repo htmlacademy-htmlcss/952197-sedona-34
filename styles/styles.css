@@ -483,7 +483,12 @@ position: relative;
 }
 
 .footer-contacts-address-phone:hover {
-  fill: #68A2CA;
+  color: #756157;
+}
+
+.footer-contacts-address-phone:active {
+  color: #fff;
+  fill: rgba(117, 97, 87, 0.3);
 }
 
 .logo-html-academy {
