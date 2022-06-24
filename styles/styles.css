@@ -181,7 +181,8 @@ body {
   background-image: url("../images/vector-slider.png");
   background-size: 100% auto;
   background-repeat: no-repeat;
-
+  width: 1200px;
+  height: 57px;
 }
 
 .image-text-slider {
