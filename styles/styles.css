@@ -395,6 +395,15 @@ padding: 92px 85px;
   padding-bottom: 94px;
 }
 
+.field {
+padding: 20px 490px 20px 20px;
+font: inherit;
+font-weight: 400;
+background: #F2F2F2;
+border-radius:  10px  0px  0px 10px;
+border: none;
+}
+
 .button-subscribe {
   font-size: 20px;
   line-height: 36px;

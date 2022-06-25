@@ -113,12 +113,32 @@
     </ul>
     </fieldset>
 
+    <div class="adjustment-form">
     <div class="price-adjustment">
       <strong class="catalog-filter-title">Стоимость, ₽:</strong>
     </div>
-    <table>
-      <dl class="control-input">0 от</dl>
-    </table>
+    <div class="range-wrapper-inputs">
+      <label class="catalog-filter-label">
+        от <input class="range-input" type="number" value="50" name="min-price"> ₽
+      </label>
+      <label class="catalog-filter-label">
+        до <input class="range-input" type="number" value="1500" name="max-price" style="width: 37px"> ₽
+      </label>
+    </div>
+    <div class="range">
+      <div class="range-scale">
+     <div class="range-bar" style="left: 42px; width: 136px">
+      <button class="range-toggle toggle-min">
+        <span class="visually-hidden">Изменить минимальную цену.</span>
+      </button>
+      <button class="range-toggle toggle-max">
+        <span class="visually-hidden">Изменить максимальную цену.</span>
+      </button>
+        </div>
+      </div>
+  </div>
+
+
     <div class="button-adjustment">
     <button class="button button-blue" type="submit">Применить</button>
     <button class="button-non" type="reset">Сбросить</button>
@@ -268,7 +288,7 @@
     <h2 class="subscribe-text-inner">Подпишитесь на рассылку</h2>
     <p class="subscribe-text-honestly-inner"> Только полезная информация и никакого спама, честное бойскаутское!</p>
     <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
-      <input type="email" name="e-mail" placeholder="Ваш e-mail">
+      <input class="field" type="email" name="e-mail" placeholder="Ваш e-mail">
       <button class="button-subscribe" type="submit">Подписаться</button>
     </form>
   </section>
