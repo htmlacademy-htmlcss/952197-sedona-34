@@ -618,15 +618,23 @@ position: relative;
 
 .catalog-filter-group-infrastructure {
   margin-right: 70px;
+  border: none;
 }
 
 .catalog-filter-group-housing {
   margin-right: 167px;
+  border: none;
 }
 
 .price-adjustment {
   margin-right: 70px;
   align-self: end;
+}
+
+.range-scale {
+  position: relative;
+  height: 4px;
+  background-color: #fff;
 }
 
 .button-adjustment {
