@@ -602,26 +602,8 @@ position: relative;
   line-height: 26px;
   font-weight: 700;
   text-transform: capitalize;
+  padding: 0;
   margin-bottom: 30px;
-}
-
-.control {
-  position: relative;
-  display: block;
-  padding-left: 36px;
-}
-
-.control-mark {
-  position: absolute;
-  top: 2px;
-  left: 0;
-  width: 16px;
-  height: 16px;
-  border: 2px solid #242424;
-}
-
-.control-label {
-  font-weight: 700;
 }
 
 .catalog-filter-groups {
@@ -649,7 +631,6 @@ position: relative;
 }
 
 .adjustment-form {
-
   width: 287px;
 }
 
@@ -722,11 +703,82 @@ position: relative;
   justify-content: flex-end;
 }
 
+.control {
+  position: relative;
+  display: block;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.control :nth-child(3) {
+  margin-bottom: 0;
+}
+
+.control-mark {
+  position: absolute;
+  top: 2px;
+  left: 1;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.control-input[type="checkbox"]:checked + .control-mark::before,
+.control-input[type="checkbox"]:checked + .control-mark::after {
+  position: absolute;
+  background-image: url("../images/check.svg");
+  width: 12px;
+  height: 9px;
+  color: #000;
+}
+
+.control-mark :hover {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.control-mark :focus {
+  background: rgba(255, 255, 255, 0.6);
+  border: 3px solid #83B3D3;
+  border-radius: 4px;
+}
+
+.control-mark :active {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.control :hover,
+.control :focus {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.control :active {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.control-label {
+  font-weight: 400;
+}
 
 .control-input {
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
+}
+
+.control-input[type="radio"] + .control-mark {
+  border-radius: 50%;
+}
+
+.control-input[type="radio"]:checked + .control-mark::before {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  background-color: #242424;
+  border-radius: 50%;
+  content: "";
 }
 
 .button {
