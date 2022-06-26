@@ -772,11 +772,9 @@ position: relative;
 
 .control-input[type="radio"]:checked + .control-mark::before {
   position: absolute;
-  top: 4px;
-  left: 4px;
-  width: 8px;
-  height: 8px;
-  background-color: #242424;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
   border-radius: 50%;
   content: "";
 }
@@ -859,16 +857,31 @@ margin-bottom: 120px;
   text-transform: uppercase;
   max-width: 600px;
   margin: 0;
-  margin-right: 190px;
+  margin-right: auto;
 }
 
 .select-control {
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
-  color: #333333;
+  font: inherit;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
   width: 290px;
   height: 49px;
+  background-color: #ffffff;
+}
+
+.select-control-numbers {
+  font-size: 18px;
+  line-height: 21px;
+  font: inherit;
+  font-weight: 400;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+  width: 160px;
+  height: 49px;
+  background-color: #ffffff;
 }
 
 .select-control :hover {
@@ -888,7 +901,7 @@ margin-bottom: 120px;
 }
 
 .visually-selected {
-  margin-right: auto;
+  margin-left: auto;
 }
 
 .button-selected {
