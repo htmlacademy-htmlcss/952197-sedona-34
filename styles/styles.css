@@ -593,6 +593,8 @@ position: relative;
 
 .catalog-filter-list {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .catalog-filter-title {
@@ -600,6 +602,26 @@ position: relative;
   line-height: 26px;
   font-weight: 700;
   text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+.control {
+  position: relative;
+  display: block;
+  padding-left: 36px;
+}
+
+.control-mark {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #242424;
+}
+
+.control-label {
+  font-weight: 700;
 }
 
 .catalog-filter-groups {
@@ -627,16 +649,25 @@ position: relative;
 }
 
 .adjustment-form {
+
   width: 287px;
 }
 
 .price-adjustment {
   margin-right: 70px;
   align-self: end;
+  margin-bottom: 34px;
+}
+
+.catalog-filter-label {
+
 }
 
 .range-wrapper-inputs {
   display: flex;
+  border: 4px;
+  background-color: none;
+  margin-bottom: 32px;
 }
 
 .range-input {
@@ -677,7 +708,6 @@ position: relative;
 
 .toggle-min {
   top: -8px;
-  left: -10px;
 }
 
 .toggle-max {
@@ -744,6 +774,21 @@ position: relative;
   background: transparent;
   border: none;
   cursor: pointer;
+}
+
+.button-non :hover {
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+
+.button-non :focus {
+  border: 3px solid #83B3D3;
+  border-radius: 4px;
+}
+
+.button-non :active {
+  color: #FFFFFF;
+  opacity: 0.3;
 }
 
 .found-hotel {
