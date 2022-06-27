@@ -574,6 +574,7 @@ position: relative;
   cursor: pointer;
   gap: 25px;
   padding-left: 0;
+
 }
 
 .breadcrumbs-link {
@@ -589,9 +590,10 @@ position: relative;
 }
 
 .breadcrumbs-item-conner {
-  background-image: url("../images/conner.svg");
+  background-image: url("../images/conner.png");
   width: 5px;
-  height: 7px;
+  height: 9px;
+  align-self: center;
 }
 
 .breadcrumbs-link-inner {
