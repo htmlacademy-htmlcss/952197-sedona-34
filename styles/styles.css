@@ -114,6 +114,26 @@ body {
   flex-wrap: wrap;
 }
 
+.heart {
+  position: relative;
+}
+
+.quantity-goods {
+  font-family: PT Sans;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  color: #FFFFFF;
+  background-color: #7DB54F;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: auto;
+  position: absolute;
+  transform: translateY(-18px);
+  transform: translateX(-8px);
+}
+
 .navigation-user .navigation-link {
   min-width: 18px;
   min-height: 18px;
