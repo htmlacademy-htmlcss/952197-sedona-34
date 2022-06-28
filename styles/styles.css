@@ -687,13 +687,12 @@ position: relative;
   position: relative;
   height: 4px;
   background-color: #fff;
-  opacity: 0.3;
 }
 
 .range-bar {
   position: absolute;
   height: 4px;
-  background-color: #000;
+  background-color: #fff;
 }
 
 .range-toggle {
