@@ -114,6 +114,30 @@ body {
   flex-wrap: wrap;
 }
 
+.navigation-item {
+  position: relative;
+}
+
+.heart {
+  position: relative;
+}
+
+.quantity-goods {
+  font-family: PT Sans;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  color: #FFFFFF;
+  background-color: #7DB54F;
+  border-radius: 50%;
+  position: absolute;
+  transform: translateY(-18px);
+  transform: translateX(-8px);
+}
+
 .navigation-user .navigation-link {
   min-width: 18px;
   min-height: 18px;
@@ -122,8 +146,7 @@ body {
 .navigation-link-current::before {
   position: absolute;
   right: 20px;
-  width: 68px;
-  bottom: ;
+  bottom: 0;
   left: 20px;
   height: 2px;
   background-color: #756257;
@@ -396,12 +419,14 @@ padding: 92px 85px;
 }
 
 .field {
-padding: 20px 490px 20px 20px;
+padding: 20px 0px 19px 20px;
+width: 600px;
 font: inherit;
 font-weight: 400;
 background: #F2F2F2;
 border-radius:  10px  0px  0px 10px;
 border: none;
+box-sizing: border-box;
 }
 
 .button-subscribe {
@@ -417,6 +442,7 @@ border: none;
   border-radius: 0px 10px 10px 0px;
   border-style: none;
   cursor: pointer;
+  margin-left: -5px;
 }
 
 .button-subscribe:hover {
@@ -551,6 +577,7 @@ position: relative;
   cursor: pointer;
   gap: 25px;
   padding-left: 0;
+
 }
 
 .breadcrumbs-link {
@@ -566,9 +593,10 @@ position: relative;
 }
 
 .breadcrumbs-item-conner {
-  background-image: url("../images/conner.svg");
+  background-image: url("../images/conner.png");
   width: 5px;
-  height: 7px;
+  height: 9px;
+  align-self: center;
 }
 
 .breadcrumbs-link-inner {
@@ -659,13 +687,12 @@ position: relative;
   position: relative;
   height: 4px;
   background-color: #fff;
-  opacity: 0.3;
 }
 
 .range-bar {
   position: absolute;
   height: 4px;
-  background-color: #000;
+  background-color: #fff;
 }
 
 .range-toggle {
@@ -730,7 +757,6 @@ position: relative;
   background-image: url("../images/check.svg");
   width: 12px;
   height: 9px;
-  color: #000;
 }
 
 .control-mark :hover {
@@ -766,17 +792,20 @@ position: relative;
   font-weight: 400;
 }
 
-.control-input[type="radio"] + .control-mark {
+.control-mark-radio {
   border-radius: 50%;
-}
-
-.control-input[type="radio"]:checked + .control-mark::before {
   position: absolute;
   width: 20px;
   height: 20px;
   background-color: #fff;
-  border-radius: 50%;
   content: "";
+}
+
+.control-mark-radio :checked {
+  position: absolute;
+  background-image: url("../images/ellipse.png");
+  width: 10px;
+  height: 5px;
 }
 
 .button {
