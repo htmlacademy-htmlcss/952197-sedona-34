@@ -758,7 +758,6 @@ position: relative;
   background-image: url("../images/check.svg");
   width: 12px;
   height: 9px;
-  color: #000;
 }
 
 .control-mark :hover {
@@ -794,17 +793,20 @@ position: relative;
   font-weight: 400;
 }
 
-.control-input[type="radio"] + .control-mark {
+.control-mark-radio {
   border-radius: 50%;
-}
-
-.control-input[type="radio"]:checked + .control-mark::before {
   position: absolute;
   width: 20px;
   height: 20px;
   background-color: #fff;
-  border-radius: 50%;
   content: "";
+}
+
+.control-mark-radio :checked {
+  position: absolute;
+  background-image: url("../images/ellipse.png");
+  width: 10px;
+  height: 5px;
 }
 
 .button {
