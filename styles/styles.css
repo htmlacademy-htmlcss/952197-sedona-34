@@ -419,12 +419,14 @@ padding: 92px 85px;
 }
 
 .field {
-padding: 20px 490px 20px 20px;
+padding: 20px 0px 19px 20px;
+width: 600px;
 font: inherit;
 font-weight: 400;
 background: #F2F2F2;
 border-radius:  10px  0px  0px 10px;
 border: none;
+box-sizing: border-box;
 }
 
 .button-subscribe {
@@ -440,6 +442,7 @@ border: none;
   border-radius: 0px 10px 10px 0px;
   border-style: none;
   cursor: pointer;
+  margin-left: -5px;
 }
 
 .button-subscribe:hover {
