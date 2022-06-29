@@ -1234,3 +1234,17 @@ align-self: center;
   margin: 0;
   margin-bottom: 16px;
 }
+
+.form-label {
+
+}
+
+.form-label-data {
+  width: 420px;
+  background-image: url(../images/calendar.svg);
+  background-repeat: no-repeat;
+}
+
+.modal-container-close {
+  display: none;
+}
