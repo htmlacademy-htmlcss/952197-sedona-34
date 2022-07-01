@@ -1212,7 +1212,7 @@ align-self: center;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
-  color: #000000;
+  color: #000;
   text-transform: uppercase;
 }
 
@@ -1253,11 +1253,44 @@ align-self: center;
 }
 
 .form-label-data {
-  width: 420px;
+  color: #000;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 40px;
+  border: 0;
+  border-radius: 4px;
+  background-color: #F2F2F2;
+  padding: 5px 0 5px 19px;
   background-image: url(../images/calendar.svg);
   background-repeat: no-repeat;
 }
 
+.field-box {
+  order: 2;
+  display: grid;
+  grid-template-columns: 50px 30px 30px 50px;
+}
+
+.field-button {
+  z-index: 1;
+  display: flex;
+  place-items: center;
+  place-self: center;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 1px;
+  background: transparent;
+}
+
+.field-button :hover {
+  fill: #000;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+-webkit-appearance: none;
+}
+
 .modal-container-close {
-  display: none;
+  display:
 }
