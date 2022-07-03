@@ -1281,7 +1281,7 @@ margin-left: 225px;
   margin-bottom: 40px;
 }
 
-.field {
+.field-modal {
   display: flex;
   padding: 0;
   width: 288px;
@@ -1439,5 +1439,5 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .modal-container-close {
-  display:
+  display: non
 }
