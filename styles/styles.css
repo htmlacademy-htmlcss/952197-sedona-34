@@ -1246,13 +1246,13 @@ align-self: center;
 }
 
 .form-label-data {
-  color: #000;
   font-weight: 700;
   font-size: 18px;
   line-height: 40px;
   border: 0;
   border-radius: 4px;
   background-color: #F2F2F2;
+  color: #000;
   padding: 5px 0 5px 19px;
   background-repeat: no-repeat;
   width: 400px;
@@ -1272,6 +1272,16 @@ font-weight: 400;
 font-size: 16px;
 line-height: 21px;
 color: #FF5757;
+margin: 0;
+margin-left: 225px;
+}
+
+.date-text-correct {
+  font-family: 'PT Sans';
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+color: #000;
 margin: 0;
 margin-left: 225px;
 }
@@ -1319,8 +1329,6 @@ align-self: center;
 
 .field-button::before {
   content: "";
-  width: 20px;
-  height: 20px;
   background: var(--icon) no-repeat center / contain;
 }
 
@@ -1329,6 +1337,7 @@ align-self: center;
 }
 
 .field-number {
+  position: relative;
   box-sizing: border-box;
   width: 133px;
   font-weight: 700;
@@ -1338,6 +1347,16 @@ align-self: center;
   border-radius: 4px;
   border: 0;
   background-color: #F2F2F2;
+}
+
+.minus {
+  position: absolute;
+  transform: translateX(20px);
+}
+
+.plus {
+  position: absolute;
+  transform: translateX(100px);
 }
 
 .tooltip {
