@@ -185,7 +185,7 @@
           <button class="info">
               <span class="visually-hidden">Календарь</span>
           </button>
-          <p class="date text">Мы не можем отправить вас в прошлое.</p>
+          <p class="date-text">Мы не можем отправить вас в прошлое.</p>
         </p>
         <p class="field-group appointment-form-date">
           <label class="form-label" for="appointment-date">
@@ -195,9 +195,10 @@
             <button class="info">
               <span class="visually-hidden">Календарь</span>
             </button>
-          <p class="date text">На эти даты есть свободные номера. Пока есть.</p>
+          <p class="date-text">На эти даты есть свободные номера. Пока есть.</p>
         </p>
 
+        <div class="modal-two">
         <div class="field">
           <label class="field-label" for="adult">Взрослые:</label>
           <span class="field-box">
@@ -235,11 +236,26 @@
             </button>
           </span>
           <span class="tooltip">
-            <span class="tooltip-text" role="tooltip" id="tooltip-children">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
+            <button class="tooltip-toggle" type="button">
+              <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12.5" cy="12.5" r="12.5" fill="#83B3D3"/>
+                <g clip-path="url(#clip0_33716_644)">
+                <path d="M12 17H13V11H12V17Z" fill="white"/>
+                <path d="M13 8H12V9H13V8Z" fill="white"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_33716_644">
+                <rect width="1" height="9" fill="white" transform="translate(12 8)"/>
+                </clipPath>
+                </defs>
+                </svg>
+            </button>
+            <span class="tooltip-text" role="tooltip" id="tooltip-children">Укажите количество детей, <br> которые будут с вами, возраст которых от 6 до 18 лет. Дети <br> до 6 лет размещаются бесплатно.</span>
           </span>
         </div>
+      </div>
 
-        <a class="button-modal" href="">Найти</a>
+      <a class="button-modal" href="">Найти</a>
       </form>
     </section>
   </div>
