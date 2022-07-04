@@ -1283,6 +1283,7 @@ align-self: center;
   background-repeat: no-repeat;
   width: 420px;
   cursor: pointer;
+  margin-left: auto;
 }
 
 .form-label-data:hover {
