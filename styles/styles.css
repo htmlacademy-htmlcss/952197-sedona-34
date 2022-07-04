@@ -1204,16 +1204,13 @@ align-self: center;
   position: relative;
   margin: auto;
   background-color: #ffffff;
-  width: 715px;
+  padding: 70px;
 }
 
 .modal-content {
-margin-left: 70px;
-margin-right: 70px;
 }
 
 .modal-auth {
-  width: 715px;
   border-radius: 30px;
   box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.15);
 }
@@ -1221,8 +1218,7 @@ margin-right: 70px;
 .modal-close-button {
   position: absolute;
   padding: 0;
-  top: 54px;
-  right: 70px;
+  right: 100px;
   width: 53px;
   height: 53px;
   background-color: #F2F2F2;
@@ -1239,7 +1235,7 @@ margin-right: 70px;
 }
 
 .modal-title {
-  margin-left: 70px;
+  margin: 0;
   margin-bottom: 63px;
   font-family: "PT Sans", sans-serif;
   font-size: 30px;
@@ -1294,7 +1290,7 @@ margin-right: 70px;
 .info {
   border: none;
   background-color: transparent;
-  transform: translateX(-40px);
+  transform: translateX(-70px);
 }
 
 .date-text {
@@ -1474,9 +1470,6 @@ input[type="number"]::-webkit-inner-spin-button {
   border-radius: 4px;
   display: block;
   align-self: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 70px;
 }
 
 .button-modal:hover {
@@ -1494,6 +1487,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .htmlacademy {
   text-decoration: none;
+  margin: 0;
 }
 
 .modal-container-close {
