@@ -1205,9 +1205,11 @@ align-self: center;
   margin: auto;
   background-color: #ffffff;
   padding: 70px;
+  display: flex;
 }
 
 .modal-content {
+
 }
 
 .modal-auth {
@@ -1218,7 +1220,7 @@ align-self: center;
 .modal-close-button {
   position: absolute;
   padding: 0;
-  right: 100px;
+  right: 120px;
   width: 53px;
   height: 53px;
   background-color: #F2F2F2;
@@ -1291,6 +1293,7 @@ align-self: center;
   border: none;
   background-color: transparent;
   transform: translateX(-70px);
+  padding: 0;
 }
 
 .date-text {
@@ -1300,7 +1303,7 @@ font-size: 16px;
 line-height: 21px;
 color: #FF5757;
 margin: 0;
-margin-left: 20%;
+margin-left: 22%;
 }
 
 .date-text-correct {
@@ -1310,7 +1313,7 @@ font-size: 16px;
 line-height: 21px;
 color: #000;
 margin: 0;
-margin-left: 20%;
+margin-left: 22%;
 }
 
 .modal-two {
@@ -1323,7 +1326,7 @@ margin-left: 20%;
 .field-modal {
   display: flex;
   padding: 0;
-  width: 288px;
+
 }
 
 .field-label {
