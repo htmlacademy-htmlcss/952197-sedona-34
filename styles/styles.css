@@ -844,7 +844,6 @@ background: transparent;
 }
 
 .control-mark:focus {
-  background: rgba(255, 255, 255, 0.6);
   border: 3px solid #83B3D3;
 }
 
@@ -879,7 +878,6 @@ background: transparent;
 }
 
 .control-mark-radio:focus {
-  background: rgba(255, 255, 255, 0.6);
   border: 3px solid #83B3D3;
 }
 
