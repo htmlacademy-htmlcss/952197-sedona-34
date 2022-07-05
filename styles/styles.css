@@ -128,7 +128,7 @@ body {
   font-family: PT Sans;
   font-weight: 400;
   font-size: 10px;
-  line-height: 13px;
+  line-height: 19px;
   text-align: center;
   width: 20px;
   height: 20px;
@@ -137,8 +137,8 @@ body {
   background-position: center;
   border-radius: 50%;
   position: absolute;
-  transform: translateY(-18px);
-  transform: translateX(-8px);
+  top: 13px;
+  right: 5px;
 }
 
 .navigation-user .navigation-link {
@@ -563,10 +563,12 @@ position: relative;
   padding-bottom: 71px;
   margin-bottom: 50px;
   width: 1200px;
+  margin-left: -70px;
 }
 
 .inner-slider-content {
   width: 1060px;
+  padding-left: 70px;
 }
 
 .inner-slider-title {
@@ -645,6 +647,7 @@ position: relative;
 
 .catalog-filter-groups {
   display: flex;
+  align-items: flex-start;
 }
 
 .catalog-products {
@@ -694,9 +697,7 @@ background: transparent;
 }
 
 .range-input {
-  padding-top: 14px;
-  padding-left: 19px;
-  padding-bottom: 14px;
+  padding: 14px 0 14px 19px;
   background: none;
   border: none;
   color: #FFFFFF;
@@ -704,6 +705,8 @@ background: transparent;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+  max-width: 100px;
+  box-sizing: border-box;
 }
 
 .range-scale {
@@ -751,6 +754,7 @@ background: transparent;
   flex-direction: column;
   margin-left: auto;
   justify-content: flex-end;
+  margin-top: 60px;
 }
 
 .control {
@@ -966,7 +970,7 @@ margin-bottom: 120px;
   padding: 17px;
 }
 
-button-selected-current {
+.button-selected-current {
   width: 48px;
   height: 48px;
   display: inline-block;
@@ -1220,7 +1224,7 @@ align-self: center;
 .modal-close-button {
   position: absolute;
   padding: 0;
-  right: 120px;
+  right: 70px;
   width: 53px;
   height: 53px;
   background-color: #F2F2F2;
@@ -1474,6 +1478,7 @@ input[type="number"]::-webkit-inner-spin-button {
   border-radius: 4px;
   display: block;
   align-self: center;
+  border: none;
 }
 
 .button-modal:hover {
