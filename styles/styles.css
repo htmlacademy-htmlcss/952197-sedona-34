@@ -688,25 +688,74 @@ background: transparent;
 }
 
 .range-wrapper-inputs {
-  display: grid;
-  grid-template-columns: 144px 144px;
+  display: flex;
   margin-bottom: 32px;
-  border: 2px solid #FFFFFF;
-  border-radius: 4px;
   background: transparent;
 }
 
-.range-input {
+.range-input-min {
+  width: 145px;
+  border: 2px solid #FFFFFF;
+  border-radius: 4px 0px 0px 4px;;
   padding: 14px 0 14px 19px;
   background: none;
-  border: none;
   color: #FFFFFF;
   font-family: 'PT Sans';
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  max-width: 100px;
+  max-width: 144px;
   box-sizing: border-box;
+}
+
+.range-input-max {
+  width: 145px;
+  border: 2px solid #FFFFFF;
+  border-radius: 0px 4px 4px 0px;;
+  padding: 14px 0 14px 19px;
+  background: none;
+  color: #FFFFFF;
+  font-family: 'PT Sans';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  max-width: 144px;
+  box-sizing: border-box;
+  position: relative;
+  left: -2px;
+  cursor: pointer;
+}
+
+.range-input-max:hover {
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+.range-input-max:focus {
+  border: 2px solid #FFFFFF;
+  box-shadow: 0px 0px 0px 3px #81B3D2;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.range-input-max:active {
+  background: #756257;
+  border: 2px solid #FFFFFF;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.range-input-min:hover {
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+.range-input-min:focus {
+  border: 2px solid #FFFFFF;
+  box-shadow: 0px 0px 0px 3px #81B3D2;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.range-input-min:active {
+  background: #756257;
+  border: 2px solid #FFFFFF;
+  border-radius: 0px 4px 4px 0px;
 }
 
 .range-scale {
@@ -790,27 +839,13 @@ background: transparent;
   height: 9px;
 }
 
-.control-mark :hover {
+.control-mark:hover {
   background: rgba(255, 255, 255, 0.6);
 }
 
-.control-mark :focus {
+.control-mark:focus {
   background: rgba(255, 255, 255, 0.6);
   border: 3px solid #83B3D3;
-  border-radius: 4px;
-}
-
-.control-mark :active {
-  background: rgba(255, 255, 255, 0.3);
-}
-
-.control :hover,
-.control :focus {
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.control :active {
-  background: rgba(255, 255, 255, 0.3);
 }
 
 .control-label {
@@ -843,8 +878,13 @@ background: transparent;
   right: 5px;
 }
 
-.control-mark-radio::before {
+.control-mark-radio:focus {
+  background: rgba(255, 255, 255, 0.6);
+  border: 3px solid #83B3D3;
+}
 
+.control-mark-radio:active {
+  background: rgba(255, 255, 255, 0.3);
 }
 
 .button {
@@ -894,12 +934,11 @@ background: transparent;
   cursor: pointer;
 }
 
-.button-non :hover {
-  color: #FFFFFF;
-  opacity: 0.6;
+.button-non:hover {
+  color: rgba(242, 242, 242, 0.6);
 }
 
-.button-non :focus {
+.button-non:focus {
   border: 3px solid #83B3D3;
   border-radius: 4px;
 }
