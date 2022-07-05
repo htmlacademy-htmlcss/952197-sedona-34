@@ -1030,16 +1030,19 @@ margin-bottom: 120px;
   padding: 17px;
 }
 
-.button-selected :hover {
-  border: #000;
+.button-selected:hover {
+  display: inline-block;
+  border: 2px solid #000;
 }
 
-.button-selected :focus {
-  border: #68A2CA;
+.button-selected:focus {
+  display: inline-block;
+  border: 2px solid #68A2CA;
 }
 
-.button-selected :active {
-  border: #000;
+.button-selected:active {
+  display: inline-block;
+  border: 2px solid #000;
 }
 
 .button-icon-table {
