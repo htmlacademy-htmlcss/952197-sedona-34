@@ -771,17 +771,21 @@ background: transparent;
 .control-mark {
   position: absolute;
   top: 2px;
-  left: 1;
+  left: 0;
   width: 20px;
   height: 20px;
   border-radius: 4px;
   background-color: #fff;
 }
 
-.control-input[type="checkbox"]:checked + .control-mark::before,
-.control-input[type="checkbox"]:checked + .control-mark::after {
+.control-input:checked + .control-mark::before,
+.control-input:checked + .control-mark::after {
   position: absolute;
   background-image: url("../images/check.svg");
+  display: inline-block;
+  content: "";
+  top: 5px;
+  left: 5px;
   width: 12px;
   height: 9px;
 }
@@ -822,17 +826,25 @@ background: transparent;
 .control-mark-radio {
   border-radius: 50%;
   position: absolute;
+  left: 0;
   width: 20px;
   height: 20px;
   background-color: #fff;
-  content: "";
 }
 
-.control-mark-radio :checked {
-  position: absolute;
+.control-input:checked + .control-mark-radio::before, .control-input:checked + .control-mark-radio::after{
+  width: 11px;
+  height: 10px;
   background-image: url("../images/ellipse.png");
-  width: 10px;
-  height: 5px;
+  display: inline-block;
+  content: "";
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.control-mark-radio::before {
+
 }
 
 .button {
