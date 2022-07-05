@@ -1226,6 +1226,21 @@ align-self: center;
   width: 160px;
 }
 
+.select-control:hover {
+  border: 2px solid #68A2CA;
+  border-radius: 4px;
+}
+
+.select-control:focus {
+  border: 2px solid #68A2CA;
+  border-radius: 4px;
+}
+
+.select-control:active {
+  border: 2px solid rgba(63, 94, 114, 1);
+  border-radius: 4px;
+}
+
 .call-without-background {
   text-align: center;
   margin-bottom: 36px;
