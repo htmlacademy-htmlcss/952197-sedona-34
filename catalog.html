@@ -46,6 +46,7 @@
 
   <main class="main-inner">
   <div class="inner-slider">
+    <div class="inner-slider-content">
     <h1 class="inner-slider-title">Гостиницы Седоны</h1>
     <ul class="breadcrumbs">
     <li class="breadcrumbs-item">
@@ -61,7 +62,7 @@
     </li>
     </ul>
 
-  <section class="catalog-products">
+   <section class="catalog-products">
     <h2 class="visually-hidden">Выбор гостиниц по параметрам</h2>
     <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
     <div class="catalog-filter-groups">
@@ -70,21 +71,21 @@
     <ul class="catalog-filter-list">
     <li class="catalog-filter-item">
       <label class="control">
-        <span class="control-mark"></span>
         <input class="control-input" type="checkbox" name="swimming-pool" checked>
+        <span class="control-mark"></span>
         Бассейн
       </label>
     </li>
     <li class="catalog-filter-item">
       <label class="control">
-        <span class="control-mark"></span>
         <input class="control-input" type="checkbox" name="parkig" checked>
+        <span class="control-mark"></span>
         Парковка</label>
     </li>
     <li class="catalog-filter-item">
       <label class="control">
-        <span class="control-mark"></span>
         <input class="control-input" type="checkbox" name="Wi-Fi">
+        <span class="control-mark"></span>
         Wi-Fi
       </label>
     </li>
@@ -96,22 +97,23 @@
     <ul class="catalog-filter-list">
     <li class="catalog-filter-item">
       <label class="control">
-        <span class="control-mark-radio"></span>
+
         <input class="control-input" type="radio" name="hotel-choice" value="hotel" checked>
+        <span class="control-mark-radio"></span>
         Гостиница
       </label>
     </li>
     <li class="catalog-filter-item">
       <label class="control">
-        <span class="control-mark-radio"></span>
         <input class="control-input" type="radio" name="hotel-choice" value="motel">
+        <span class="control-mark-radio"></span>
         Мотель
       </label>
     </li>
     <li class="catalog-filter-item">
       <label class="control">
-        <span class="control-mark-radio"></span>
         <input class="control-input" type="radio" name="hotel-choice" value="apartments">
+        <span class="control-mark-radio"></span>
         Апартаменты
       </label>
     </li>
@@ -124,10 +126,10 @@
     </div>
     <div class="range-wrapper-inputs">
       <label class="catalog-filter-label">
-        <input class="range-input" type="number" value="0" value="от" name="min-price">
+        <input class="range-input-min" type="number" value="0" value="от" name="min-price">
       </label>
       <label class="catalog-filter-label">
-        <input class="range-input" type="number" value="9000" name="max-price">
+        <input class="range-input-max" type="number" value="9000" name="max-price">
       </label>
     </div>
     <div class="range">
@@ -153,6 +155,7 @@
    </form>
   </section>
 </div>
+</div>
 
   <section class="found-hotel">
 <div class="selected-hotel">
@@ -166,7 +169,7 @@
     </select>
 
   <div class="visually-selected">
-  <a class="button-selected button-icon-table" href="#">
+  <a class="button-selected button-icon-table button-selected-current" href="#">
     <span class="visually-hidden">Показать карточки</span>
   </a>
   <a class="button-selected button-icon-slideshow" href="#">
@@ -256,6 +259,8 @@
     </div>
     </li>
     </ul>
+
+    <div class="line"></div>
 
     <div class="pagination-select">
     <ul class="pagination">
