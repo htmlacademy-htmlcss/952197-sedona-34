@@ -1470,6 +1470,7 @@ margin-right: 50px;
   border: 0;
   background-color: #F2F2F2;
   height: 50px;
+  padding: 0;
 }
 
 .minus {
@@ -1583,7 +1584,7 @@ border-radius: 10px;
 }
 
 .modal-container-close {
-  display: none;
+  display: non;
 }
 
 .line {
