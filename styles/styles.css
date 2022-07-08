@@ -440,7 +440,7 @@ padding: 92px 85px;
 
 .call-with-background {
   color: #FFFFFF;
-  background-color: #000000;
+  background-color: #3F5E72;
   background-image: url("../images/background-2.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -898,6 +898,7 @@ background: transparent;
   height: 20px;
   border-radius: 4px;
   background-color: #fff;
+  margin-right: 19px;
 }
 
 .control-input:checked + .control-mark::before,
